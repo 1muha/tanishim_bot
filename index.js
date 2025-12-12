@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 
 // ❗ TOKENNI O'ZING QO'YASAN
-const bot = new TelegramBot("8414221631:AAHylpall7v01acRUj-J5EcmeM_jeGTACH0", {
+const bot = new TelegramBot("8551941256:AAEzhM0cPSLneGr8ZHIs3n0bIgrSoD4PB4M", {
   polling: true,
 });
 
@@ -39,3 +39,4 @@ app.get("/", (req, res) => {
 
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Server ${PORT} portda ishladi`));
+
